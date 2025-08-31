@@ -1,32 +1,33 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
+    name: "Trần Đức Ngạn",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
-    instagram: "",
+    role: "Student",
+    bio: "Xin chào đây là blog của Trần Đức Ngạn",
+    email: "ducngan.contact@gmail.com",
+    linkedin: "",
+    github: "ngan-tranduc",
+    instagram: "ngan.tranduc",
   },
   projects: [
-    {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
-    },
+    // Bạn có thể thêm projects sau này nếu muốn
+    // {
+    //   name: `project-name`,
+    //   href: "https://github.com/ngan-tranduc/project-name",
+    // },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
-    scheme: "dark", // 'light' | 'dark' | 'system'
+    title: "Blog Của Ngạn",
+    description: "Chào mừng bạn đến với blog của Ngạn!",
+    scheme: "system", // 'light' | 'dark' | 'system'
   },
 
-  // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
-  lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  // CONFIG configuration (required)
+  link: "https://ngan-blog.vercel.app",
+  since: 2024, // If leave this empty, current year will be used.
+  lang: "vi-VN", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR', 'vi-VN']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
@@ -58,7 +59,7 @@ const CONFIG = {
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
-      label: "💬 Utterances",
+      label: "💬 Bình luận",
     },
   },
   cusdis: {
