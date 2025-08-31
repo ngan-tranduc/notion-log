@@ -11,11 +11,10 @@ const CONFIG = {
     instagram: "ngan.tranduc",
   },
   projects: [
-    // Bạn có thể thêm projects sau này nếu muốn
-    // {
-    //   name: `project-name`,
-    //   href: "https://github.com/ngan-tranduc/project-name",
-    // },
+    {
+    name: "Nganj Shop",
+    href: "https://github.com/ngan-tranduc/laptop-store-web",
+    }
   ],
   // blog setting (required)
   blog: {
