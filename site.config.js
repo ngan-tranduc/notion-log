@@ -1,10 +1,10 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "Trần Đức Ngạn",
+    name: "Ngạn",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Student",
-    bio: "Xin chào đây là blog của Trần Đức Ngạn",
+    bio: "Xin chào đây là blog của Ngạn",
     email: "ducngan.contact@gmail.com",
     linkedin: "",
     github: "ngan-tranduc",

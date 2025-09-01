@@ -10,15 +10,15 @@ const ProfileCard: React.FC<Props> = () => {
   return (
     <StyledWrapper>
       <div className="title">
-        <Emoji>💻</Emoji> Profile
+        <Emoji>📝</Emoji> Giới thiệu
       </div>
       <div className="content">
-        <div className="top">
+        {/* <div className="top">
           <Image src={CONFIG.profile.image} fill alt="" />
-        </div>
+        </div> */}
         <div className="mid">
           <div className=" name">{CONFIG.profile.name}</div>
-          <div className="role">{CONFIG.profile.role}</div>
+          {/* <div className="role">{CONFIG.profile.role}</div> */}
           <div className="text-sm mb-2">{CONFIG.profile.bio}</div>
         </div>
       </div>
